@@ -121,6 +121,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &345809651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2801141035075367170, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4e07d6feda6324498fd0d8417660761, type: 2}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888399791528999058, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7093056637079110069, guid: a81fb1d9fef4dab438d2940db7383d68,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Ship
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a81fb1d9fef4dab438d2940db7383d68, type: 3}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 5555505067045996771, guid: b2d2641e01b8c604588d95288a92795d,
@@ -277,6 +351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Directional Light
       objectReference: {fileID: 0}
+    - target: {fileID: 5555505067045996768, guid: b2d2641e01b8c604588d95288a92795d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5555505067045996770, guid: b2d2641e01b8c604588d95288a92795d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,7 +394,7 @@ PrefabInstance:
     - target: {fileID: 5555505067045996770, guid: b2d2641e01b8c604588d95288a92795d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5555505067045996770, guid: b2d2641e01b8c604588d95288a92795d,
         type: 3}
